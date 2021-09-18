@@ -22,6 +22,7 @@ guess = input("Guess a letter: ").lower()
 for numb in range(len(chosen_word)):
     if guess in chosen_word[numb]:
         display[numb] = guess
-print(display)
+
 #TODO-3: - Print 'display' and you should see the guessed letter in the correct position and every other letter replace with "_".
 #Hint - Don't worry about getting the user to guess the next letter. We'll tackle that in step 3.
+print(display)
